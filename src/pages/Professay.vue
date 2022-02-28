@@ -203,7 +203,7 @@ export default {
                 this.minHours = this.calc.description?.minHours || 6
             }
         },
-        academiclevel() {
+        academiclevel() { 
             this.getTurnaroundsWithRate()
         },
         type() {

@@ -1,0 +1,75 @@
+/*Base btn*/
+
+$btn-font-weight: 700;
+$btn-text-transform: uppercase;
+$btn-base__border-radius: 10px;
+$btn-base-height: 48px;
+$btn-base-hovered--bg : #EBF6FF;
+$btn-base-hovered-svg--bg: #fff;
+
+/*Base btn*/
+
+
+/*Main btn*/
+
+$btn-main-background: linear-gradient(90deg, #428bca 0%, #357ebd 100%);
+$btn-main-background-hover: linear-gradient(90deg, #357ebd 0%, #428bca 100%);
+$btn-main-color: $white;
+$btn-main-color-hover: $white;
+$btn-main-box-shadow: 0px 2px 0px transparent; // 0px 7px 17px rgba(68, 64, 63 , 0.46);
+$btn-main-box-shadow-active: 0px 2px 0px #4059DB;
+$btn-base_colored-shadow: none;
+
+/*Main btn*/
+
+
+/*Border btn*/
+
+$btn-border-background: $white;
+$btn-border-background-hover: #EBF6FF;//linear-gradient(270deg, #428bca 0, #357ebd);//linear-gradient(270deg, #34A1FE 0, #34A1FE);
+$btn-border-color: #428bca;
+$btn-border-color-hover: #707370;//$white;
+$btn-border-border: 2px solid #428bca;
+$btn-border-border-hover: 2px solid #428bca;
+$btn-border-box-shadow: none;
+$btn-border-box-shadow-active: none;
+$confirm-modal__button-shadow: none;
+$btn-bordered-svg-bg: $main-color;
+
+/*Border btn*/
+
+
+/*Secondary btn*/
+
+$btn-secondary-background: linear-gradient(90deg, #37A9FF 0%, #1B95F5 100%);
+$btn-secondary-background-hover: linear-gradient(90deg, #4ED4FF 0%, #33A0F4 100%);
+$btn-secondary-color: $white;
+$btn-secondary-color-hover: $white;
+$btn-secondary-box-shadow: none; //0px 7px 17px rgba(68, 64, 63 , 0.46 );
+
+/*Secondary btn*/
+
+
+/*Disabled btn*/
+
+$btn-disabled-background: #428bca62;
+$btn-disabled-color: #E0E4F9;
+$btn-disabled-box-shadow: none;
+$btn-disabled-border: none;
+
+/*Disabled btn*/
+
+/*Button order*/ 
+
+$btn-order-m1200-width: 60px;
+$btn-order-m1200-height: 52px;
+$btn-order__border-radius-m1200: 10px;
+
+/*Button order*/ 
+
+/*Profile button*/
+
+$metainfo__btn-bg: $btn-secondary-background;
+$metainfo__btn-bg-hover: $btn-secondary-background-hover;
+
+/*Profile button*/

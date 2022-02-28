@@ -1,0 +1,45 @@
+@import "variables/variables";
+@import "../../common/index";
+
+@import "../../common/pages/page-order-form";
+
+
+@font-face {
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Mark Pro Medium'), local('MarkPro-Medium'),
+        url('~@/assets/styles/site_specific_styles/customessaymeister.com/fonts/Mark_pro/MarkPro-Medium.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Mark Pro'), local('MarkPro'),
+        url('~@/assets/styles/site_specific_styles/customessaymeister.com/fonts/Mark_pro/MarkPro.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Mark Pro Bold'), local('MarkPro-Bold'),
+        url('~@/assets/styles/site_specific_styles/customessaymeister.com/fonts/Mark_pro/MarkPro-Bold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Mark Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Mark Pro Black'), local('MarkPro-Black'),
+        url('~@/assets/styles/site_specific_styles/customessaymeister.com/fonts/Mark_pro/MarkPro-Black.woff2') format('woff2')
+}
+
+body {
+    font-family: $font-family-base;
+}

@@ -1,0 +1,100 @@
+$screen-base: 320px;
+$screen-extra-small: 380px;
+$screen-small-medium: 480px;
+$screen-small:  576px;
+$screen-medium:  768px;
+$screen-large:  992px;
+$screen-xlarge:  1200px;
+$screen-xxlarge: 1279px;
+$screen-laptop: 1440px;
+$screen-xxxlarge: 1650px;
+$screen-wide: 1900px;
+$screen-max: 2354px;
+// bootstrap map
+$grid-breakpoints: (
+    xs: 0,
+    sm: $screen-small,
+    md: $screen-medium,
+    lg: $screen-large,
+    xl: $screen-xlarge,
+    xxl: $screen-xxlarge,
+    xxxl: $screen-xxxlarge,
+    wide: $screen-wide,
+    max: $screen-max
+);
+
+@mixin media1650max {
+    @media (max-width: #{$screen-xxxlarge}) {
+        @content;
+    }
+}
+
+@mixin media1440max {
+    @media (max-width: #{$screen-laptop}) {
+        @content;
+    }
+}
+
+@mixin media1279max {
+    @media (max-width: #{$screen-xxlarge}) {
+        @content;
+    }
+}
+
+@mixin media1200max {
+    @media (max-width: #{$screen-xlarge}) {
+        @content;
+    }
+}
+
+@mixin media992max {
+    @media (max-width: #{$screen-large}) {
+        @content;
+    }
+}
+
+@mixin media768max {
+    @media (max-width: #{$screen-medium}) {
+        @content;
+    }
+}
+
+@mixin media576max {
+    @media (max-width: #{$screen-small}) {
+        @content;
+    }
+}
+
+@mixin media480max {
+    @media (max-width: #{$screen-small-medium}) {
+        @content;
+    }
+}
+
+@mixin media380max {
+    @media (max-width: #{$screen-extra-small}) {
+        @content;
+    }
+}
+
+@mixin media320max {
+    @media (max-width: #{$screen-base}) {
+        @content;
+    }
+}
+
+@mixin rgba($attribute, $color, $background) {
+    $percent: alpha($color) * 100%;
+    $opaque: opacify($color, 1);
+    $solid-color: mix($opaque, $background, $percent);
+    #{$attribute}: $solid-color;
+    #{$attribute}: $color;
+}
+
+@mixin text-ellipsis($width: auto) {
+    display: inline-block;
+    width: $width;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

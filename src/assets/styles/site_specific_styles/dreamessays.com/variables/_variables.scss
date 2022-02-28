@@ -1,0 +1,279 @@
+// colors
+$bg-main-color: #fafafa;
+$font-color-main: #2c2c45; //#1f2939;
+$page-title-color: #2c2c45; //$font-color-main;
+$main-color: #ef9c60; //#ff690c;
+$second-color: #ef9c60;
+$main-border-radius : 30px; //4px;
+$light-grey:  #787e86;
+$label-light-grey: #abb1bb;
+$border-light: #e7ecf4;
+$white: #fff;
+$step-block: block;                                    // removes the block or adds to the login screen
+$footer-bg: linear-gradient(to left, #354255 0%, #1f2939 100%);
+$footer-pay-item-bg: $white;
+$footer__row--border-bottom: 1px solid rgba(255, 255, 255, .3);
+$footer-link-color : #cad1dc;
+$footer-title-color: #cdcad9;
+$footer-padding: 0;
+$main-gradient: linear-gradient(270deg, #5469fb 0, #5197ff); //linear-gradient(108deg,#ffa23b,#ff5423);
+$page-wrapper__w1200-margin_top: 60px;
+$detail-value--color: #fa0000;
+$cart-btn-order__count-bg: #fff;
+$cart-btn-order__count-color: $main-color;
+
+$filter-color: none;
+$error-color: #ff5252;
+$link-color: $main-color; //#ff690c;
+$border-gradient: linear-gradient(108deg,#ffa23b,#ef9c60);
+$second-gradient: linear-gradient(94.79deg, #FF9D39 0.59%, #ef9c60 98.53%);
+$second-gradient__color-first: #FF9D39;
+$second-gradient__color-second: #FF5925;
+// input
+$input-border: 1px solid #D3D9E2;
+$input-border-focus: 1px solid #666;
+$input-border-success: 1px solid #27d91f;
+$input-border-error: 1px solid $error-color;
+$input-border-radius: 4px;
+
+$logo-img: url("~@/assets/styles/site_specific_styles/dreamessays.com/images/logo.svg") no-repeat;
+$logo-img-after--display: none;
+$header-logo-after--display: none;
+$logo-img-width: 114px;
+$logo-img-m1200-width: 300px; //120px
+$logo-img-m1200-height: 50px; //50px
+$logo-img-m480-width: 60px;
+$logo-img-m480-height: 29px;
+$logo-img-mobile: url("~@/assets/styles/site_specific_styles/dreamessays.com/images/logo-mobile.svg") no-repeat;
+
+// font
+$font-family-base: 'Montserrat';
+$font-size-base: 14px;
+
+// border-radius
+
+$main-border-radius: 4px;
+
+//header
+
+$header-padding: 0px;
+$header-m1200-height: 60px;
+
+
+//user-avatar
+
+$user-avatar__after-display: block;
+$avatar-img__border-radius: 50%;
+$avatar-img__width: 34px;
+$avatar-img__height: 34px;
+$avatar-img__bg-color: $main-color;
+$avatar-img__initials-color: $white;
+$avatar-img-span__font-size: 14px;
+
+//bc-wrapper
+
+$bc-wrapper-position: static;
+$bc-wrapper__before-display: none;
+$bc-wrapper__before-bg: transparent;
+$bc-horizontal-w576__padding-botom: 30px;
+$bc-wrapper-w576__before-bg: transparent;
+
+
+//breadcrumbs
+
+$bc-color: $link-color;
+$bc-current-color: $label-light-grey;
+$bc-svg-color: #000;
+$breadcrumbs-mdi-svg-color: $font-color-main;
+$bc-btn_border--color: $main-color;
+$bc-btn_border-hover--color: #fff;
+$btn-bordered-svg-color: $main-color;
+$btn-bordered-svg-hover-color: #fff;
+$order-basket-svg-color:#fff;
+$order-basket-svg-hover-color:#fff;
+
+//icons
+
+$icon-writing--fill: $main-color;
+$icon-walet--fill: $main-color;
+$card_footer_action-hover-bg:#fff;
+
+//profile
+
+$profile-metainfo__align-items: center;
+$bigger-text-color: $font-color-main;
+$metainfo__description-color: $light-grey;
+$time-zone-color: #000;
+$timezone__padding: 0;
+$no-result__before-bg: url('~@/assets/img/svg/billing_notfound.svg') no-repeat !important;
+$discount-bg: $second-gradient;
+$discount-w580-bg: $second-gradient;
+$discount-dots-item-bg: transparent;
+$discount-desc-jc: space-around;
+$discount-redirect-border: 2px dashed #fff;
+$discount-redirect__before-bg: #fff;
+$profile-info__after-bg: $border-gradient, #C4C4C4;
+$profile-info-border-radius: 5px;
+$invite-friends__attention-bg: #fff5f1;
+$tickets-top-margin-top: 0;
+$tickets-top-margin-bottom: 50px !important;
+$tickets-top-w576-margin: 0 0 50px !important;
+$report-problem-w576-margin_top: 5px;
+$bc-credits-padding: 40px 0;
+$profile-dropdown__item-hover: rgba(255, 105, 12, 0.1);
+$bc_info_balance-bg: #ffeee4;
+$report-problem-color-hover: $second-color;
+$report-problem-color: #000;
+$mdi-bell: $second-color;
+$icon--writing-bg: $main-color;
+$icon--walet-bg: $main-color;
+$profile-friends-text-color: $font-color-main;
+$profile-friends__earnings-text-color: #77c93a;
+$acc-loyalty__media-tablet-width: 992px;
+$friend-detail__info-about--color: $font-color-main;
+$profile-home__card-hover--svg__color: #1f2939;
+$header-notification__menu-w480__right: -137px;
+$profile-header-block-after-display: block;
+
+//support
+
+$page_support-wrapper-pd-left: 0;
+$page_support-wrapper-pd-right: 0;
+$page_support-wrapper__margin-top: 0;
+$support_ticket_sidebar-display: block;
+$support-form_header__before-bg: $second-gradient, #C4C4C4;
+$support-form-border-radius: $main-border-radius;
+$support-form__after-bg: $border-gradient;
+$page_support__bc-wrapper-bg: #fff;
+$btn_helpcenter-display: inline-flex;
+
+//filters
+
+$filter-block__count-bg:#FFEEE4;
+
+//attachments
+
+$file-uploader__box_upload-hover-bg: rgba(100%, 41%, 5%, .1);
+
+//Calculator
+$calc-title-font-weight: 700;
+$calc-title-font-family : $font-family-base;
+$calc-tabs_wrapper-bg:#fafafa;
+$calc-tabs_wrapper-border-top: 1px solid #e9e9e9;
+$calc-tabs_arrow-bg: #FAFAFA;
+$calc-tabs_arrow-after-bg: rgba(255, 105, 12, 0.1);
+$calc_tabs-current-pos-top: 0;
+$calc_tabs-current-height: 4px;
+$calc_tabs-current-bg: linear-gradient(90deg,#ffa23b,#ff5423);
+$calc_tabs-item-font-weight: 500;
+$calc_tabs-item-color: initial;
+$calc_tabs-item--active-color: initial;
+$calc_turnaround-before_display: block;
+$calc_turnaround-after_display: block;
+$calc_turnaround-padding-top: 0;
+$calc_turn-item_border: none;
+$calc_turn-item_border-radius: initial;
+$calc_turn-item_box-shadow: initial;
+$calc_turn-item_padding: 0;
+$calc_turn-item-header_border: 1px solid #d3d9e2;
+$calc_turn-item--active-header_border: 1px solid #ff9136;
+$calc_turn-item-header_padding: 9px 0 4px;
+$calc_turn-item-footer-before_display: block;
+$calc_turn-item-footer-before_pd-top: 30px;
+$calc_turn-item-price_padding: 0;
+$calc_turn-item-price_align-self: center;
+$calc_turn-item-price_bg: none;
+$calc_turn-item--active-price_bg: none;
+$calc_turn-item--active-price_color: #ff690c;
+$calc_turn-item--active-border: none;
+$calc_turn-item-price_color: #a8aaae;
+$calc_turn-item-header_color: #a8aaae;
+$calc_turn-item-bottom_color: #a8aaae;
+$calc_turn-item-bottom_padding: 0;
+$calc-price_color: #ff6c16;
+
+//form-styles
+$order-form-border-radius: 4px;
+
+//login
+
+$form-block__faq-display: none;
+$form-block__faq-img__max-width: 247px;
+$form-block__faq-img__padding: 0;
+$colored-link__color: $font-color-main;
+
+//order
+
+$my-order__margin: auto 0 ;
+$no-result__margin:10vh auto;
+$discount-desc-w580-padding: 50px 0;
+$payment-details__cards-bg: #ff5f00;
+$payment-details__cards_visa-bg: #FAA61A;
+$feedback_modal__header-text-order__img-display: none;
+$feedback_modal__header-text-order__before-display: block;
+
+//writers
+
+$writer_list--box-shadow: none;
+$writer_list--border-radius: 0;
+$writer_list--padding-bottom: 0;
+$writer_card--margin-top: 30px;
+$writer_card--border: 1px solid $border-light;
+$writer_card--border-bottom: 1px solid $border-light;
+$writer_card-index--bg: #f9f9f9;
+$writer_card-w576__padding-top: 75px;
+$writers-sort__margin-top: 0;
+$writers-sort-w1200__margin-top: 0;
+$writers-sort-w768__margin-top: 0;
+$writers-rate-bg: rgba(255, 105, 12, 0.1);
+
+//writer
+
+$writer-profile_header--childs-color: none;
+$writer-profile_title-color: #1e2838;
+$writer-profile_title-font: 500 24px / 1.2 $font-family-base;
+$writer-profile_about-title__opacity: .5;
+$writer-profile_about-title__color: #1e2838;
+$writer-profile_about-title__font: 500 16px $font-family-base;
+$writer-profile_about-title__margin-top: 25px;
+$writer-profile_about-text__color: #1e2838;
+$writer-profile_content__margin-top: 80px;
+$writer-profile_content-w1279__margin-top: 30px;
+$writer-profile_content-w768__margin-top: 30px;
+$writer-profile_avatar-rate-w1279__color: #888;
+$writer-profile_avatar-rate--span-w1279__color: $second-color;
+$review_header-counter_bottom__color: #1e2838;
+$review_header-counter__color: #96a1b2;
+$review_date__color: #96a1b2;
+$review__border: 1px solid $border-light;
+$review__box-shadow: none;
+$review__border-radius: 0;
+$writer-font-color-secondary: #656C76;
+$writer-font-color-main: #1F2939;
+$hire-baner__pencil-display: none;
+$hire-baner__pencil-tablet-display: none;
+$hire-baner-padding: 25px;
+$hire-baner-border: 1px solid #E7ECF4;
+$hire-baner-border-radius:4px;
+$hire-baner-box-shadow: none;
+$writer__bc-wrapper-padding-top: 76px;
+$page_writer--categories-margin-top: 103px;
+
+//info
+
+$info-content-flex: 0 0 75%;
+$info-content-padding: 0 0 90px;
+$info-content-box-shadow: none;
+$info-content-border-radius: 0;
+
+//the categories filter
+
+$categories-border: 1px solid #E7ECF4;
+$categories__after-bg: #ef9c60;
+$categories__box-shadow: none;
+$categories__border-radius: $main-border-radius;
+
+@import './buttons';
+
+$writer-profile_btn-main-bg: $btn-main-background;
+$writer-profile_btn-main-hover-bg: $btn-main-background-hover;

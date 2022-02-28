@@ -1,0 +1,273 @@
+// colors
+$bg-main-color: #fafafa;
+$font-color-main: #1F2939;
+$page-title-color: #fff;
+$main-color: #4a9ce1;//#34A1FE;
+$second-color: #50adff;
+$link-color: #4a9ce1;//#34A1FE;
+$light-grey: #787e86;
+$label-light-grey: #abb1bb;
+$border-light: #e7ecf4;
+$white: #fff;
+$footer-pay-item-bg: $white;
+$footer__row--border-bottom: 1px solid rgba(255, 255, 255, .3);
+$footer-link-color: #fff;
+$footer-title-color: #fff;
+$footer-padding: 43px 0 0;
+$main-gradient: linear-gradient(108deg, #4a9ce1, #4a9ce1);//linear-gradient(108deg, #34A1FE, #34A1FE);
+$second-gradient__color-first: #a2d1fa;
+$second-gradient__color-second: #4a9ce1; //#34A1FE;
+$second-gradient:linear-gradient(94.79deg, #a2d1fa 0.59%, #4a9ce1 98.53%);// linear-gradient(94.79deg, #a2d1fa 0.59%, #34A1FE 98.53%);
+$step-block: none;
+$page-wrapper__w1200-margin_top: 86px;
+$detail-value--color: $main-color;
+$cart-btn-order__count-bg: #fff;
+$cart-btn-order__count-color: $main-color;
+
+$filter-color: none;
+$error-color: #ff5252;
+$border-gradient: linear-gradient(108deg, #4a9ce1, #4a9ce1);//linear-gradient(108deg, #34A1FE, #34A1FE);
+
+// input
+$input-border: 1px solid #D3D9E2;
+$input-border-focus: 1px solid #666;
+$input-border-success: 1px solid #b4b6b4;
+$input-border-error: 1px solid $error-color;
+$input-border-radius: 10px;
+
+$logo-img: none ;//url("~@/assets/styles/site_specific_styles/professays.com/images/logo.svg") no-repeat;
+$logo-img-after--display: block;
+$header-logo-after--display: block;
+$logo-img-width: 180px;
+$logo-img-m1200-width: 180px;
+$logo-img-m1200-height: 52px;
+$logo-img-m480-width: 52px;
+$logo-img-m480-height: 52px;
+$logo-img-mobile: none;//url("~@/assets/styles/site_specific_styles/professays.com/images/logo-mobile.svg") no-repeat;
+
+// font
+
+$font-family-base: Helvetica, Arial, sans-serif;
+$font-size-base: 14px;
+
+// border-radius
+
+$main-border-radius: 10px;
+
+//header
+
+$header-padding: 12px 15px 12px 0;
+$header-m1200-height: 86px;
+
+//user-avatar
+
+$user-avatar__after-display: none;
+$avatar-img__border-radius: 50%;
+$avatar-img__width: 48px;
+$avatar-img__height: 48px;
+$avatar-img__bg-color: #ACB5CB;
+$avatar-img__initials-color: $white;
+$avatar-img-span__font-size: 22px;
+
+//bc-wrapper
+
+$bc-wrapper-position: relative;
+$bc-wrapper__before-display: block;
+$bc-horizontal-w576__padding-botom: 65px;
+
+//breadcrumbs
+
+$bc-color: #E9F5FF;
+$bc-current-color: #E9F5FF;
+$bc-svg-color: #E9F5FF;
+$breadcrumbs-mdi-svg-color: #E9F5FF;
+$bc-btn_border--color: $main-color;
+$bc-btn_border-hover--color: $light-grey;
+$btn-bordered-svg-color: $main-color;
+$btn-bordered-svg-hover-color: $light-grey;
+$order-basket-svg-color:#fff;
+$order-basket-svg-hover-color:#fff;
+
+//icons
+
+$icon-writing--fill: #E9F5FF;
+$icon-walet--fill: #E9F5FF;
+$card_footer_action-hover-bg:$light-grey;
+
+//profile
+
+$profile-metainfo__align-items: flex-start;
+$bigger-text-color: #fff;
+$metainfo__description-color: #fff;
+$time-zone-color: #fff;
+$timezone__padding: 14px 0 0;
+$discount-dots-item-bg: transparent;
+$discount-desc-jc: space-around;
+$discount-redirect-border: none;
+$discount-redirect__before-bg: transparent;
+$profile-info__after-bg: transparent;
+$profile-info-border-radius: $main-border-radius;
+$invite-friends__attention-bg: #EBF6FF;
+$tickets-top-margin-top: 30px !important;
+$tickets-top-margin-bottom: 30px !important;
+$tickets-top-w576-margin: 20px 0  !important;
+$report-problem-w576-margin_top: 10px;
+$bc-credits-padding: 40px 20px;
+$profile-dropdown__item-hover: #EBF6FF;
+$bc_info_balance-bg: #EBF6FF;
+$report-problem-color-hover: #EBF6FF;
+$report-problem-color: #EBF6FF;
+$mdi-bell: #EBF6FF;
+$icon--writing-bg: #EBF6FF;
+$icon--walet-bg: #EBF6FF;
+$profile-friends-text-color: #EBF6FF;
+$profile-friends__earnings-text-color: #EBF6FF;
+$acc-loyalty__media-tablet-width: 750px;
+$friend-detail__info-about--color: #EBF6FF;
+$profile-home__card-hover--svg__color: #1f2939;
+$header-notification__menu-w480__right: -163px;
+$profile-header-block-after-display: none;
+
+//support 
+
+$page_support-wrapper-pd-left: 15px;
+$page_support-wrapper-pd-right: 15px;
+$page_support-wrapper__margin-top: -30px;
+$support_ticket_sidebar-display: none;
+$support-form_header__before-bg: transparent;
+$support-form-border-radius: 20px;
+$support-form__after-bg: transparent;
+$page_support__bc-wrapper-bg: transparent;
+$btn_helpcenter-display: inline-flex;
+
+//filters
+
+$filter-block__count-bg:#EBF6FF;
+
+//attachments
+
+$file-uploader__box_upload-hover-bg: #EBF6FF;
+
+//Calculator
+$calc-title-font-weight: 400;
+$calc-title-font-family : "Titillium Web";
+$calc-tabs_wrapper-bg:#fff;
+$calc-tabs_wrapper-border-top: none;
+$calc-tabs_arrow-bg: #fff;
+$calc-tabs_arrow-after-bg: #EBF6FF;
+$calc_tabs-current-pos-top: calc(100% - 2px);
+$calc_tabs-current-height: 2px;
+$calc_tabs-current-bg: $main-color;
+$calc_tabs-item-font-weight: 700;
+$calc_tabs-item-color: #6A6B6D;
+$calc_tabs-item--active-color: #07080C;
+$calc_turnaround-before_display: none;
+$calc_turnaround-after_display: none;
+$calc_turnaround-padding-top: 8px;
+$calc_turn-item_border: 1px solid transparent;
+$calc_turn-item_border-radius: 10px;
+$calc_turn-item_box-shadow: 0 0 10px 1px rgba(0, 0, 0, .1);
+$calc_turn-item_padding: 0 0 10px;
+$calc_turn-item-header_border: none;
+$calc_turn-item--active-header_border: none;
+$calc_turn-item-header_padding: 9px 0 8px;
+$calc_turn-item-footer-before_display: none;
+$calc_turn-item-footer-before_pd-top: 0;
+$calc_turn-item-price_padding: 10px 0;
+$calc_turn-item-price_align-self: stretch;
+$calc_turn-item-price_bg: #F9FBFE;
+$calc_turn-item--active-price_bg: linear-gradient(90deg, #428bca 0%, #357ebd 100%);
+$calc_turn-item--active-price_color: #fff;
+$calc_turn-item--active-border: 1px solid #4466DC;
+$calc_turn-item-price_color: $main-color;
+$calc_turn-item-header_color: #07080C;
+$calc_turn-item-bottom_color: #07080C;
+$calc_turn-item-bottom_padding: 5px 0 0;
+$calc-price_color: #07080C;
+
+//form-styles
+$order-form-border-radius: 4px;
+
+//login 
+
+$form-block__faq-display: flex;
+$form-block__faq-img__max-width: 223px;
+$form-block__faq-img__padding: 30px;
+$colored-link__color: $link-color;
+
+//order
+
+$my-order__margin: 40px 0 auto;
+$no-result__margin: 20vh auto 10vh;
+$discount-desc-w580-padding: 50px 0 0;
+$payment-details__cards-bg: $main-color;
+$payment-details__cards_visa-bg: $main-color;
+$feedback_modal__header-text-order__img-display: none;
+$feedback_modal__header-text-order__before-display: block;
+
+//writers
+
+$writer_list--box-shadow: -10px 6px 60px rgba(0, 0, 0, 0.05);
+$writer_list--border-radius: 20px;
+$writer_list--padding-bottom: 30px;
+$writer_card--margin-top: 0;
+$writer_card--border: none;
+$writer_card--border-bottom: 1px solid $border-light !important;
+$writer_card-index--bg: transparent;
+$writer_card-w576__padding-top: 55px;
+$writers-sort__margin-top: 45px;
+$writers-sort-w1200__margin-top: 25px;
+$writers-sort-w768__margin-top: 60px;
+$writers-rate-bg: #EBF6FF;
+$writer-font-color-secondary: #fff;
+$writer-font-color-main: #fff;
+
+//writer
+
+$writer-profile_header--childs-color: #fff !important;
+$writer-profile_title-color: #07080C;
+$writer-profile_title-font: 700 36px / 1.2 $font-family-base;
+$writer-profile_about-title__opacity: 1;
+$writer-profile_about-title__color: #07080C;
+$writer-profile_about-title__font: 700 24px $font-family-base;
+$writer-profile_about-title__margin-top: 40px;
+$writer-profile_about-text__color: #474A51;
+$writer-profile_content__margin-top: 80px;
+$writer-profile_content-w1279__margin-top: 80px;
+$writer-profile_content-w768__margin-top: 80px;
+$writer-profile_avatar-rate-w1279__color: #fff !important;
+$writer-profile_avatar-rate--span-w1279__color: #fff !important;
+$review_header-counter_bottom__color: $main-color;
+$review_header-counter__color: #474A51;
+$review_date__color: #474A51;
+$review__border: none;
+$review__box-shadow: 4px 8px 40px rgba(0, 0, 0, 0.05);
+$review__border-radius: 20px;
+$hire-baner__pencil-display: none;
+$hire-baner__pencil-tablet-display: none;
+$hire-baner-padding: 25px;
+$hire-baner-border: none;
+$hire-baner-border-radius: $main-border-radius;
+$hire-baner-box-shadow: 4px 8px 40px rgba(0, 0, 0, .05);
+$writer__bc-wrapper-padding-top: 40px;
+$page_writer--categories-margin-top: 113px;
+
+
+//info
+
+$info-content-flex: 0 0 100%;
+$info-content-padding: 40px 20px;
+$info-content-box-shadow: -10px 6px 60px rgba(0, 0, 0, 0.05);
+$info-content-border-radius: 20px;
+
+//the categories filter 
+
+$categories-border: none;
+$categories__after-bg: transparent;
+$categories__box-shadow: 4px 8px 40px rgba(0, 0, 0, 0.05);
+$categories__border-radius: $main-border-radius;
+
+@import 'buttons';
+
+$writer-profile_btn-main-bg: $btn-secondary-background;
+$writer-profile_btn-main-hover-bg: $btn-secondary-background-hover;

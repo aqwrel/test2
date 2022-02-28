@@ -1,0 +1,68 @@
+@import "variables/variables";
+@import "../../common/index";
+
+@import "../../common/pages/page-order-form";
+
+@import "pages/_page-login.scss";
+
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+        url('~@/assets/styles/site_specific_styles/dreamessays.com/fonts/Montserrat/Montserrat-Regular.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Montserrat Medium'), local('Montserrat-Medium'),
+        url('~@/assets/styles/site_specific_styles/dreamessays.com/fonts/Montserrat/Montserrat-Medium.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+        url('~@/assets/styles/site_specific_styles/dreamessays.com/fonts/Montserrat/Montserrat-SemiBold.woff2') format('woff2')
+}
+
+//@font-face {
+//    font-family: 'Mark Pro';
+//    font-style: normal;
+//    font-weight: 900;
+//    font-display: swap;
+//    src: local('Mark Pro Black'), local('MarkPro-Black'),
+//        url('~@/assets/styles/site_specific_styles/customessaymeister.com/fonts/Mark_pro/MarkPro-Black.woff2') format('woff2')
+//}
+
+body {
+    font-family: $font-family-base;
+}
+
+.form-block__checkbox .colored-link {
+    color: $link-color;
+}
+
+.order-form-step .form-input-type-number__button {
+    background-color: transparent;
+}
+
+.header__logo-img {
+    width: 150px;
+}
+
+.header__wrapper {
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, .13);
+}
+
+.social-login-btn__active {
+    background-color: $second-color !important;
+    border: 1px solid $second-color !important;
+}

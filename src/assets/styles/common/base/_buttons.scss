@@ -1,0 +1,84 @@
+.btn {
+    &-base {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: $btn-base-height;
+        padding: 12px 24px;
+        font-size: $font-size-base;
+        font-weight: $btn-font-weight;
+        text-transform: $btn-text-transform;
+        border: none;
+        border-radius: $btn-base__border-radius;
+        transition: .2s;
+        cursor: pointer;
+    }
+
+    &-main {
+        background: $btn-main-background;
+        color: $btn-main-color;
+        box-shadow: $btn-main-box-shadow;
+
+        &:hover {
+            background: $btn-main-background-hover;
+            color: $btn-main-color-hover;
+        }
+
+        &:active{
+            box-shadow: $btn-main-box-shadow-active;
+        }
+    }
+
+    &-secondary {
+        background: $btn-secondary-background;
+        padding: 18px 36px ;
+        color: $btn-secondary-color;
+        box-shadow: $btn-secondary-box-shadow;
+
+        &:hover {
+            background: $btn-secondary-background-hover;
+            color: $btn-main-color-hover;
+        }
+    }
+
+    &-border {
+        background: $btn-border-background;
+        border: $btn-border-border;
+        color: $btn-border-color;
+        padding: 10px 35px ;
+        box-shadow: $btn-border-box-shadow;
+
+        &:hover {
+            background: $btn-border-background-hover;
+            color: $btn-border-color-hover;
+            border: $btn-border-border-hover;
+        }
+
+        &:active{
+            box-shadow: $btn-border-box-shadow-active;
+        }
+    }
+
+    &-disabled {
+        background: $btn-disabled-background !important;
+        border: $btn-disabled-border !important;
+        color: $btn-disabled-color !important;
+        box-shadow: $btn-disabled-box-shadow;
+        cursor: default;
+    }
+}
+
+.btn-social {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_loadmore{
+    display: flex;
+    justify-content: center;
+    @include media576max{
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,61 @@
+/*Base btn*/
+$btn-font-weight: 700;
+$btn-text-transform: uppercase;
+$btn-base__border-radius: 30px;
+$btn-base-height: 48px;
+$btn-base-hovered--bg : $main-color;
+$btn-base-hovered-svg--bg: #fff;
+/*Base btn*/
+
+/*Main btn*/
+$btn-main-background: linear-gradient(108deg,#CC3636,#CC3636);
+$btn-main-background-hover: linear-gradient(270deg, #a81c1c, #a81c1c);
+$btn-main-color: $white;
+$btn-main-color-hover: $white;
+$btn-main-box-shadow: none; // 0px 7px 17px rgba(68, 64, 63 , 0.46);
+$btn-main-box-shadow-active: none;
+$confirm-modal__button-shadow:none;
+$btn-base_colored-shadow: none;
+/*Main btn*/
+
+/*Border btn*/
+$btn-border-background: $white;
+$btn-border-background-hover: linear-gradient(270deg, #CC3636 0, #CC3636);
+$btn-border-color: #CC3636;
+$btn-border-color-hover: $white;
+$btn-border-border: 2px solid #CC3636;
+$btn-border-border-hover: 2px solid #CC3636;
+$btn-border-box-shadow: none;
+$btn-border-box-shadow-active: none;
+$btn-bordered-svg-bg: $main-color;
+/*Border btn*/
+
+/*Secondary btn*/
+$btn-secondary-background: linear-gradient(108deg,#CC3636,#CC3636);
+$btn-secondary-background-hover: linear-gradient(270deg,#CC3636,#CC3636);
+$btn-secondary-color: $white;
+$btn-secondary-color-hover: $white;
+$btn-secondary-box-shadow: none; //0px 7px 17px rgba(68, 64, 63 , 0.46 );
+/*Secondary btn*/
+
+/*Disabled btn*/
+$btn-disabled-background: #ebebeb;
+$btn-disabled-color: #828282;
+$btn-disabled-box-shadow: none;
+$btn-disabled-border: none;
+/*Disabled btn*/
+
+/*Button order*/ 
+
+$btn-order-m1200-width: 60px;
+$btn-order-m1200-height: 60px;
+$btn-order__border-radius-m1200: 0;
+
+/*Button order*/ 
+
+/*Profile button*/
+
+$metainfo__btn-bg: $btn-main-background;
+$metainfo__btn-bg-hover: $btn-main-background-hover;
+
+/*Profile button*/

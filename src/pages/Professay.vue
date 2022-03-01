@@ -178,6 +178,13 @@ export default {
             // we check the dataset received from calculator
             return this.validationState.description?.message === ''
         },
+        getCalculatorData() {
+            const {
+                type
+            } = this.$route.query
+            const typeValue = this.types.find((item) => item.value === type)
+            return typeValue?.value || this.types[0].value
+        },
         keysAffectPrice() {
             const {
                 type,
@@ -196,7 +203,7 @@ export default {
                 this.minHours = this.calc.description?.minHours || 6
             }
         },
-        academiclevel() { 
+        academiclevel() {
             this.getTurnaroundsWithRate()
         },
         type() {
@@ -213,6 +220,7 @@ export default {
     async created() {
       const {data} = await axios('https://shop.customessaymeister.com/api/data/order');
       this.orderData = data
+      this.getTurnaroundsWithRate()
     },
     methods: {
         goToOrderForm() {

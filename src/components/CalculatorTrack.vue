@@ -22,8 +22,9 @@
                         </span>
                         <span class="turnaround_deadline">
                             <span class="turnaround_deadline--bold">
-                                {{ dateToNow2(turnaround.short_name)  }}
+                                {{  Number.isFinite(+dateToNow2(turnaround.short_name).split(' ')[0]) ? dateToNow2(turnaround.short_name).split(' ')[0] : dateToNow2(turnaround.short_name) }}
                             </span>
+                            {{ Number.isFinite(+dateToNow2(turnaround.short_name).split(' ')[0]) ? dateToNow2(turnaround.short_name).split(' ')[1] : dateToNow2(turnaround.short_name) }}
                         </span>
                     </header>
                     <div class="turnaround_footer">

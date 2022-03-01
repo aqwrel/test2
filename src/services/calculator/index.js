@@ -7,7 +7,6 @@ export class CalculatorValidator {
     constructor(pricing, form) {
         this.formData = form
         this.pricing = pricing
-        console.log(pricing);
         this.helper = new Helper(pricing, form)
         this.form = new Form(form)
         this.message = new Message(pricing, form)

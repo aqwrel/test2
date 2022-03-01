@@ -30,7 +30,6 @@ export class Deadline {
     getRateHours() {
         // this is an estimated time to complete 1 page for a given project type
         const found = this.pricing.type.find((element) => element.value === this.form.initProjectType())
-        console.log(found);
         if (found) {
             return found.hours
         }

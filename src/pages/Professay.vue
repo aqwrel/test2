@@ -148,8 +148,8 @@ export default {
     data() {
         return {
             custom_date: false,
-            academiclevel: 'annotated_bibliography',
-            type: 'essay',
+            academiclevel: 'highschool',
+            type: 'annotated_bibliography',
             pages: 1,
             datetime: '',
             // calc contains data returned from Calculator service

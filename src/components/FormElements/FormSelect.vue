@@ -96,6 +96,7 @@ export default {
         setValue() {
             const isExist = this.items.some((el) => el.value === this.search);
             if (isExist) {
+                console.log(this.valueSelect, this.search);
                 this.$emit('input', this.search);
                 return this.items.find((element) => element.value === this.search).text;
             }
@@ -146,6 +147,7 @@ export default {
             }
         },
         setInitValue() {
+            console.log(this.valueSelect, this.search);
             this.search = this.valueSelect ? this.valueSelect : '';
         },
         // clickOutside() {

@@ -33,7 +33,7 @@
                             v-model="type"
                             label="Select project type"
                             :items="types"
-                            :value-select="getCalculatorData"
+                            :value-select="type"
                             name="type"
                         />
                     </div>
@@ -177,13 +177,6 @@ export default {
         isPriceAvailable() {
             // we check the dataset received from calculator
             return this.validationState.description?.message === ''
-        },
-        getCalculatorData() {
-            const {
-                type
-            } = this.$route.query
-            const typeValue = this.types.find((item) => item.value === type)
-            return typeValue?.value || this.types[0].value
         },
         keysAffectPrice() {
             const {

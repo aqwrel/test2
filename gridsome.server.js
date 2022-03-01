@@ -13,15 +13,7 @@ module.exports = function (api) {
 
   api.loadSource(async store => {
     const {data} = await axios('https://shop.customessaymeister.com/api/data/order')
-    const type = [
-        data.type.find(({ value }) => value === 'essay'),
-        ...data.type.filter(({ value }) => value !== 'essay')
-    ]
-    const data2 = {
-        ...data,
-        type
-    }
-    store.addMetadata('order', data2)
+    store.addMetadata('order', data)
   })
 
   api.createPages(({ createPage }) => {

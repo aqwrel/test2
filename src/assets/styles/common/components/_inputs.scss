@@ -1,0 +1,30 @@
+input, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    &::-ms-clear {
+        display: none;
+    }
+}
+.form-input,
+.form-select-country,
+.form-masked-input {
+    &__fieldset {
+        border:none !important;
+        input {
+            font-size: 14px;
+            border: 1px solid #D3D9E2;
+            user-select: text !important;
+            background: transparent;
+            &:focus {
+                border: 1px solid #666;
+            }
+            &.error-border {
+                border: 1px solid #ff5252;
+            }
+            &.success {
+                border: 1px solid #27d91f;
+            }
+        }
+    }
+}

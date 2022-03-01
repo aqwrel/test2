@@ -8,7 +8,7 @@ module.exports = {
   chainWebpack: (config, { isProd, isClient }) => {
     if (isProd && isClient) {
       config.optimization.splitChunks({
-        chunks: "initial",
+        chunks: "all",
         maxInitialRequests: Infinity,
         cacheGroups: {
           vueVendor: {

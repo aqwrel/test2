@@ -161,7 +161,6 @@ export default {
             validationState: {},
             calculations: {},
             isCalculating: true,
-            orderData: null
         }
     },
     computed: {
@@ -218,8 +217,6 @@ export default {
         }
     },
     async created() {
-      const {data} = await axios('https://shop.customessaymeister.com/api/data/order');
-      this.orderData = data
       this.getTurnaroundsWithRate()
     },
     methods: {

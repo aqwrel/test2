@@ -148,7 +148,7 @@ export default {
     data() {
         return {
             custom_date: false,
-            academiclevel: 'highschool',
+            academiclevel: 'annotated_bibliography',
             type: 'essay',
             pages: 1,
             datetime: '',

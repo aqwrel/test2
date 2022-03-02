@@ -148,5 +148,5 @@ export default {
 </script>
 
 <style lang="scss">
-    @import '~/assets/styles/site_specific_styles/customessaymeister.com/index.scss';
+    @import '~/assets/styles/site_specific_styles/solidpapers.com/index.scss';
 </style>

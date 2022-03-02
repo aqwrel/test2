@@ -13,18 +13,22 @@ input, textarea {
         border:none !important;
         input {
             font-size: 14px;
-            border: 1px solid #D3D9E2;
+            border: $input-border;
             user-select: text !important;
             background: transparent;
             &:focus {
-                border: 1px solid #666;
+                border: $input-border-focus;
             }
             &.error-border {
-                border: 1px solid #ff5252;
+                border: $input-border-error;
             }
             &.success {
-                border: 1px solid #27d91f;
+                border: $input-border-success;
             }
         }
     }
+}
+
+button {
+    font-family: $font-family-base, sans-serif !important;
 }

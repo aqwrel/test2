@@ -10,23 +10,10 @@ module.exports = {
       config.optimization.splitChunks({
         chunks: "initial",
         maxInitialRequests: Infinity,
-        cacheGroups: {
-          vueVendor: {
-            test: /[\\/]node_modules[\\/](vue|vuex|vue-router)[\\/]/,
-            name: "vue-vendors",
-          },
-          gridsome: {
-            test: /[\\/]node_modules[\\/](gridsome|vue-meta)[\\/]/,
-            name: "gridsome-vendors",
-          },
-          polyfill: {
-            test: /[\\/]node_modules[\\/]core-js[\\/]/,
-            name: "core-js",
-          },
-        },
       });
     }
   },
   siteName: 'Gridsome',
+  prefetch: { mask: '^$' },
   plugins: []
 }

@@ -13,7 +13,7 @@ module.exports = {
       });
     }
   },
-  siteName: 'Gridsome',
+  siteName: 'Calculators',
   prefetch: { mask: '^$' },
   plugins: []
 }

@@ -143,7 +143,13 @@ export default {
         CalculatorLevelTabs,
         CalculatorCustomDate
     },
-    mixins: [calculatorMixin]
+    mixins: [calculatorMixin],
+    methods: {
+        goToOrderForm() {
+            this.recordEventGotoOrder()
+            window.top.location.href = `https://shop.bili.pro/order/new?type=${this.type}&academiclevel=${this.academiclevel}&pages=${this.pages}&date=${this.datetime}`
+        },
+    }
 }
 </script>
 
